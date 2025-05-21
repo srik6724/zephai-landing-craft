@@ -18,7 +18,7 @@ const HeroSection = () => {
                 Get Started Free
               </Button>
              <Button size="lg" variant="outline" className="text-lg px-8">
-              Book a Demo!
+              Book a Demo!!
               </Button>
             </div>
           </div>
