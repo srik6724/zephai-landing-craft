@@ -18,10 +18,11 @@ const HeroSection = () => {
                 Get Started Free
               </Button>
              <Button size="lg" variant="outline" className="text-lg px-8">
-              Testing 1234
+              Book a Demo!
               </Button>
             </div>
           </div>
+
           
           <div className="mt-16 md:mt-20 w-full max-w-4xl mx-auto rounded-lg shadow-xl animate-fade-in opacity-0" style={{ animationDelay: "0.3s", animationFillMode: "forwards" }}>
             <div className="relative">
@@ -59,3 +60,6 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
+console.log("HeroSection loaded"); // <-- to verify it's rendering live
+
