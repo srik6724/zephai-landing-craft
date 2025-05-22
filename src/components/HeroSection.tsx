@@ -17,9 +17,20 @@ const HeroSection = () => {
               <Button size="lg" className="text-lg px-8">
                 Get Started Free
               </Button>
-             <Button size="lg" variant="outline" className="text-lg px-8">
-              Book a Demo!!
-              </Button>
+              <Button
+  size="lg" className="text-lg px-8"
+>
+  <a
+    href="https://calendly.com/zephaiautomation"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Book a Demo
+  </a>
+</Button>
+             {/*<Button size="lg" variant="outline" className="text-lg px-8">
+              Book a Demo!!!
+              </Button> */}
             </div>
           </div>
 
